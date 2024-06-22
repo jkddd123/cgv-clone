@@ -1,0 +1,191 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.first__a {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.second__b {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 0;
+}
+
+.first__right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.first__right div {
+  margin: 0 10px;
+}
+
+.second__left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.second__left div {
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.first__right .cgv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 3px;
+  font-size: 16;
+  font-weight: 18;
+}
+
+.second__right {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.second__b {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+
+  border-bottom: 1px solid #d00e0e;
+  border-width: 3px;
+}
+
+.redtext {
+  color: red;
+}
+
+.youtube {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 40px;
+}
+
+.chart {
+  width: 80%;
+  font-size: 26px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chart__left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 70px;
+}
+
+.movieChart {
+  margin-right: 40px;
+  font-weight: 700;
+  position: relative;
+}
+
+.chart__btn {
+  border: 1px solid #000;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 20px;
+}
+
+.movieChart::after {
+  position: absolute;
+  top: 10px;
+  content: "";
+  right: -20px;
+  width: 1px;
+  height: 50%;
+  background-color: #e0e0e0;
+}
+
+.chart2 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+.chart2__sub {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.picture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  margin-bottom: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.picture img {
+  width: 180px;
+  height: 230px;
+}
+
+.chart__wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+}
+
+.bold {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.chart2__sub__ticketing {
+  margin-right: 15px;
+}
+
+.chart__wrap {
+  justify-content: space-between;
+  padding-top: 20px;
+}
